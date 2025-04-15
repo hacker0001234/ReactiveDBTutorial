@@ -41,3 +41,5 @@ spring.liquibase.enabled=true
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-jdbc</artifactId>
 </dependency>
+а потом додай конфігурацію 
+LiquibaseConfig.java
