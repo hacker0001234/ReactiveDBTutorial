@@ -27,9 +27,9 @@ spring.liquibase.enabled=true
     <version>8.3.0</version>
 </dependency>
 <dependency>
-			<groupId>dev.miku</groupId>
-			<artifactId>r2dbc-mysql</artifactId>
-			<version>0.8.1.RELEASE</version>
+  	<groupId>io.asyncer</groupId>
+	<artifactId>r2dbc-mysql</artifactId>
+ 	<version>1.1.3</version>
 </dependency>
 і также найди завісімость
 <dependency>
@@ -43,3 +43,5 @@ spring.liquibase.enabled=true
 </dependency>
 а потом додай конфігурацію 
 LiquibaseConfig.java
+
+і саме главне акуратно работай з db.changelog-master.yaml
