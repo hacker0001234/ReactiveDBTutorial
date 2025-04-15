@@ -44,4 +44,4 @@ spring.liquibase.enabled=true
 а потом додай конфігурацію 
 LiquibaseConfig.java
 
-і саме главне акуратно работай з db.changelog-master.yaml
+і саме главне акуратно работай з db.changelog-master.yaml бо я не зробив id autoIncrement і 3 часа шукав шо не так 
